@@ -6,7 +6,9 @@
 
 - 爬取指定商品的评论数据。
 - 将评论数据存储在CSV文件中，方便后续分析和处理。
+
 ## ❗❗❗特别说明
+
 - 由于2.0版本的项目结构问题，京东单个商品评论数量只显示990条（日期区分），因此该项目每天爬取一次，可将项目部署在服务器上，每天定时执行。
 
 ## 💎依赖
@@ -18,7 +20,7 @@
 
 ```bash
 git clone https://github.com/Viper373/JD_comments
-git clone git@github.com:Viper373/JD_comments.git # 若网络无法访问，请使用ssh方式
+git clone git@github.com:Viper373/JD_comments.git # 若网络无法访问，请使用ssh方式（推荐）
 ```
 
 ### 🎑 2. 进入项目目录：
